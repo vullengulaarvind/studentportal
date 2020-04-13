@@ -1,0 +1,21 @@
+
+<a routerLink = '/addstudent'> + Add student</a>
+<h1>students</h1>
+<table>
+  <th>ID</th>
+  <th>FIRSTNAME</th>
+  <th>LASTNAME</th> 
+  <th>CLASS</th>
+  <th>CODE</th> 
+  <th>ADDRESS</th> 
+  <th></th> 
+  <th></th> 
+  <tr *ngFor = "let student of students" >
+    <td>{{student.id}}</td>
+    <td>{{student.firstName}}</td>
+    <td>{{student.lastName}}</td>
+    <td>{{student.class}}</td>
+    <td>{{student.code}}</td>
+    <td>{{student.address}}</td>          
+  </tr>
+</table>

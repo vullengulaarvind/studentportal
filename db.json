@@ -1,0 +1,76 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Sham",
+      "lastName": "Varma",
+      "class": 9845781256,
+      "code": "std-001",
+      "address": "Pune"
+    },
+    {
+      "id": 2,
+      "firstName": "John",
+      "lastName": "Doe",
+      "class": 9421657854,
+      "code": "std-002",
+      "address": "Mumbai"
+    },
+    {
+      "id": 3,
+      "firstName": "Ravi",
+      "lastName": "Sharma",
+      "class": 9132451202,
+      "code": "std-003",
+      "address": "Delhi"
+    },
+    {
+      "firstname": "qw",
+      "lastname": "c",
+      "class": "dcsd",
+      "code": "d",
+      "address": "dsd",
+      "id": 4
+    },
+    {
+      "firstname": "qw",
+      "lastname": "c",
+      "class": "dcsd",
+      "code": "d",
+      "address": "dsd",
+      "id": 5
+    },
+    {
+      "firstname": "qw",
+      "lastname": "c",
+      "class": "dcsd",
+      "code": "d",
+      "address": "dsd",
+      "id": 6
+    },
+    {
+      "firstname": "qw",
+      "lastname": "c",
+      "class": "dcsd",
+      "code": "d",
+      "address": "dsd",
+      "id": 7
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "class": "",
+      "code": "",
+      "address": "",
+      "id": 8
+    },
+    {
+      "firstname": "aravund",
+      "lastname": "vullengula",
+      "class": "5",
+      "code": "003",
+      "address": "qwer",
+      "id": 9
+    }
+  ]
+}

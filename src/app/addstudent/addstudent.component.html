@@ -1,0 +1,18 @@
+
+<a routerLink = "/"> back </a>
+
+<h2>
+  Add New student
+</h2>
+
+<form id = "formNewaddstudent" name = "formNewaddstudent" #addstudentData = "ngForm" (ngSubmit) = "addNewStudent(addstudentData.value)">
+  <label>firstname: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" name="firstname" id="firstname" placeholder="firstname" ngModel><br>
+  <label>lastname: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" name="lastname" id="lastname" placeholder="lastname" ngModel><br>
+  <label>class: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" name="class" id="class" placeholder="class" ngModel><br>
+  <label>code: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" name="code" id="code" placeholder="code" ngModel><br>
+  <label>address: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" name="address" id="address" placeholder="address" ngModel><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="submit" value = "Add student">
+</form>
+
+<br>
+<h3 *ngIf = "isAdded" >{{confirmationString}}</h3>
